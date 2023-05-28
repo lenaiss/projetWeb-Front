@@ -1,0 +1,36 @@
+{
+  "name": "7697016-front-end.1",
+  "version": "1.0.0",
+  "description": "Support de Code pour le cours OpenClassrooms Creez des pages web dynamiques avec javascript",
+  "main": "pieces.js",
+  "scripts": {
+    "start": "http-server",
+    "dev": "http-server",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpenClassrooms-Student-Center/7697016-Front-End.1.git"
+  },
+  "author": "OpenClassrooms",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OpenClassrooms-Student-Center/7697016-Front-End.1/issues"
+  },
+  "homepage": "https://github.com/OpenClassrooms-Student-Center/7697016-Front-End.1#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "bcryptjs": "^2.4.3",
+    "crypto": "^1.0.1",
+    "http-server": "^14.1.1",
+    "jsonwebtoken": "^9.0.0",
+    "jwt-decode": "^3.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.1",
+    "@babel/preset-env": "^7.22.2",
+    "babel-loader": "^9.1.2",
+    "webpack": "^5.84.1",
+    "webpack-cli": "^5.1.1"
+  }
+}

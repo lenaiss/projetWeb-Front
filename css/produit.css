@@ -1,0 +1,35 @@
+
+section {
+    width: 100%;
+}
+
+.presentation {
+	display: flex;
+	flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.presentation div {
+	/* display: flex; */
+    /* width: 100%; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 50%;
+    margin: auto;
+}
+
+.image {
+    margin: 15px;
+}
+
+.image img {
+    display: flex;
+    width: 100%;
+    height: auto;
+    max-width: 350px;
+    border-radius: 5px;
+    border: 3px solid #4A4E69;
+    box-sizing: border-box;
+}

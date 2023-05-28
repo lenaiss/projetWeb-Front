@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>KPOP NATION</title>
+		<link rel="stylesheet" href="./css/styles.css">
+		<link rel="stylesheet" href="./css/section1.css">
+		<!-- <link rel="stylesheet" href="fiches.css"> -->
+		<link rel="stylesheet" href="./css/nav.css">
+		<link rel="stylesheet" href="./css/panier.css">
+		<script type="module" src="panier.js"></script>
+		<script type="module" src="cacher.js"></script>
+	</head>
+	<body>
+		<script src="./dist/bundle.js"></script>
+		<header>
+			<a href="./index.html">
+				<img src="images/logo-kpop-nation.png" alt="LOGO">
+			</a>
+			<nav>
+				<div>
+					<a href="./connexion.html" id="connexion-link">Connexion/Inscription</a>
+				</div> 
+				<div>
+					<a href="./compte.html" id="compte-link">Mon compte</a>
+				</div>
+			</nav>
+			<a href="./panier.html">
+				<img src="images/panier.png" alt="panier">
+			</a>
+		</header>
+		<main>
+
+			<section class="panier">
+				<div class="titre">
+					<h1>Panier</h1>
+				</div>
+				<div class="tab">
+					<table>
+						<thead>
+						  	<tr>
+								<th colspan="1">Preview</th>
+								<th colspan="1">Nom</th>
+								<th colspan="1">Quantité</th>
+								<th colspan="1">Prix</th>
+						  	</tr>
+						</thead>
+						<!-- Articles du panier -->
+						<tbody class="tbody">
+							
+						</tbody>
+					</table>
+                </div>
+				<div class="total">
+					<!-- Afficher le montant du panier -->
+					<h2 class="total-prix">Total</h2>
+				</div>
+				<div>
+					<a class="fancy" href="#">
+						<span class="top-key"></span>
+						<span class="text">Valider panier</span>
+						<span class="bottom-key-1"></span>
+						<span class="bottom-key-2"></span>
+					</a>
+				</div>
+			</section>
+
+
+		</main>
+	</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>KPOP NATION</title>
+		<link rel="stylesheet" href="./css/styles.css">
+		<link rel="stylesheet" href="./css/nav.css">
+		<link rel="stylesheet" href="./css/compte.css">
+		<script type="module" src="compte.js"></script>
+		<script type="module" src="cacher.js"></script>
+	</head>
+	<body>
+		<script src="./dist/bundle.js"></script>
+		<header>
+			<a href="./index.html">
+				<img src="images/logo-kpop-nation.png" alt="LOGO">
+			</a>
+			<nav>
+				<div>
+					<a href="./connexion.html" id="connexion-link">Connexion/Inscription</a>
+				</div> 
+				<div>
+					<a href="./compte.html" id="compte-link">Mon compte</a>
+				</div>
+			</nav>
+			<a href="./panier.html">
+				<img src="images/panier.png" alt="panier">
+			</a>
+		</header>
+		<main>
+
+            <section class="compte">
+				<div class="titre">
+					<h1>Mon compte</h1>
+				</div>
+				<div class="infos">
+					<div class="lastname">
+						<h3>NOM : </h3>
+					</div>
+					<div class="firstname">
+						<h3>Prénom : </h3>
+					</div>
+					<div class="email">
+						<h3>Adresse mail : </h3>
+					</div>
+					<div>
+						<a id="deco" class="fancy" href="#">
+							<span class="top-key"></span>
+							<span class="text">Me déconnecter</span>
+							<span class="bottom-key-1"></span>
+							<span class="bottom-key-2"></span>
+						</a>
+					</div>
+				</div>
+
+            </section>
+
+			<section class="commandes">
+				<div class="titre">
+					<h1>Mes commandes</h1>
+				</div>
+				<div class="tab">
+					<table>
+						<thead class="thead">
+						  	<tr>
+								<!-- <th colspan="1">Numéro</th>
+								<th colspan="1">Preview</th>
+								<th colspan="1">Nom</th>
+								<th colspan="1">Quantité</th>
+								<th colspan="1">Prix</th> -->
+						  	</tr>
+						</thead>
+						<!-- Articles des commandes-->
+						<tbody class="tbody">
+							
+						</tbody>
+					</table>
+                </div>
+				<div>
+					<a id="modif" class="fancy" href="#">
+						<span class="top-key"></span>
+						<span class="text">Modifier mes commandes</span>
+						<span class="bottom-key-1"></span>
+						<span class="bottom-key-2"></span>
+					</a>
+					<a id="annuler" class="fancy" href="#">
+						<span class="top-key"></span>
+						<span class="text">Annuler les modifications</span>
+						<span class="bottom-key-1"></span>
+						<span class="bottom-key-2"></span>
+					</a>
+					<a id="enregistrer" class="fancy" href="#">
+						<span class="top-key"></span>
+						<span class="text">Enregistrer les modifications</span>
+						<span class="bottom-key-1"></span>
+						<span class="bottom-key-2"></span>
+					</a>
+				</div>
+			</section>
+
+		</main>
+	</body>
+</html>
